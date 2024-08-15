@@ -1,0 +1,45 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "age": 30,
+      "address": "Hà Nội",
+      "phone": "0123456789"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị B",
+      "age": 25,
+      "address": "Hồ Chí Minh",
+      "phone": "0987654321"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn C",
+      "age": 40,
+      "address": "Đà Nẵng",
+      "phone": "0123987654"
+    }
+  ],
+  "medicalRecords": [
+    {
+      "patientId": 1,
+      "reason": "Ho, sốt",
+      "medicalHistory": "Không có",
+      "diagnosis": "Viêm phổi"
+    },
+    {
+      "patientId": 2,
+      "reason": "Đau đầu",
+      "medicalHistory": "Tiền sử đau nửa đầu",
+      "diagnosis": "Migraine"
+    },
+    {
+      "patientId": 3,
+      "reason": "Đau bụng",
+      "medicalHistory": "Viêm loét dạ dày",
+      "diagnosis": "Viêm loét dạ dày"
+    }
+  ]
+}
