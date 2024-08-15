@@ -6,4 +6,14 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(router);
 
-module.exports = server;
+module.exports = (req, res) => {
+  return new Promise((resolve, reject) => {
+    server(req, res, (err) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve();
+      }
+    });
+  });
+};
